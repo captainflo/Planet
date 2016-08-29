@@ -1,0 +1,82 @@
+body {
+    background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/07/universe-backgrounds-61.jpg);
+    height: 600px;
+}
+
+.h1_home{
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  line-height: 13px;
+  font-weight: 700;
+  font-size: 38px;
+  letter-spacing: 1.2px;
+  text-decoration:none;
+}
+
+#conteneur{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right:auto;
+
+}
+
+.element_home{
+  flex-grow: 1;
+  flex-shrink: 0;
+  max-width: 105px;
+  max-height: 36px;
+}
+
+.element1_home{
+  flex-grow: 1;
+  flex-shrink: 0;
+  max-width: 105px;
+  max-height: 36px;
+  margin-left: 30px;
+}
+
+
+.button{
+    display:block;
+    font-family: 'Roboto', sans-serif;
+    height: 36px;
+    width: 105px;
+    line-height: 36px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 11px;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1.56px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid white;
+  }
+
+  .button:hover{
+  opacity: 0.8;
+  text-decoration: none;
+  }
+
+  .ball {
+      //background-color: pink;
+      color: rgb(233,65,103);
+      border-radius: 50%;
+      position: absolute;
+      text-align: center;
+      font-family: new times roman, serif;
+  }
+
+.cover {
+    position: absolute;
+    background-color: rgb(233,65,103);
+    border-radius: 50%;
+}
